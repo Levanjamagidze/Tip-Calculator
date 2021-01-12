@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-image:linear-gradient(to right,#fab1a0,#fdcb6e,#81ecec,#a29bfe);
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    color:lightslategrey;
+}
+
+.tip-calculator{
+    color: white;
+    font-size: 35px;
+    width: 600px;
+    background-color:#6c5ce7;
+    border-radius: 25px;
+    padding: 50px;
+    margin: auto;
+}
+
+label{
+    display: inline-block;
+    width: 300px;
+    margin-right: 25px;
+    padding: 15px;
+}
+
+#calculate{
+    background-color: #2d3436;
+    color:#fff;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    margin: 25px 200px 15px 200px;
+    cursor: pointer;
+}
+
+#calculate:hover{
+    transform: sclae(0.95);
+    opacity: 0.9;
+}
